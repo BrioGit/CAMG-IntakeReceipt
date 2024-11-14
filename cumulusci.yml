@@ -1,14 +1,16 @@
-minimum_cumulusci_version: '3.78.0'
+minimum_cumulusci_version: "3.78.0"
 project:
     name: CAMG-IntakeReceipt
     package:
         name: CAMG-IntakeReceipt
-        api_version: '62.0'
+        api_version: "61.0"
+    dependencies:
+        - github: https://github.com/BrioGit/CAMG
     git:
-        default_branch: 'main'
-        prefix_feature: 'feature/'
-        prefix_beta: 'beta/'
-        prefix_release: 'release/'
+        default_branch: "main"
+        prefix_feature: "feature/"
+        prefix_beta: "beta/"
+        prefix_release: "release/"
     source_format: sfdx
 
 tasks:
